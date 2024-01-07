@@ -8,6 +8,4 @@ app.include_router(elves.router)
 app.include_router(packages.router)
 
 if __name__ == "__main__":
-    initialize_database()  # Inicjalizacja bazy danych
-
-    # Tu możesz wykonać inne operacje, które wymagają bazy danych SQLite
+    initialize_database() 
